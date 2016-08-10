@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B632F1021D51BC280040EEEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B632F1011D51BC280040EEEB /* main.m */; };
+		B632F1051D51BC280040EEEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B632F1041D51BC280040EEEB /* AppDelegate.m */; };
+		B632F1081D51BC280040EEEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B632F1071D51BC280040EEEB /* ViewController.m */; };
+		B632F10B1D51BC280040EEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632F1091D51BC280040EEEB /* Main.storyboard */; };
+		B632F10D1D51BC280040EEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B632F10C1D51BC280040EEEB /* Assets.xcassets */; };
+		B632F1101D51BC280040EEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632F10E1D51BC280040EEEB /* LaunchScreen.storyboard */; };
+		B632F1191D51BC630040EEEB /* NSObject+KVOExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B632F1181D51BC630040EEEB /* NSObject+KVOExtension.m */; };
+		B632F11C1D51BFF30040EEEB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B632F11B1D51BFF30040EEEB /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B632F0FD1D51BC280040EEEB /* 自定义KVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义KVO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B632F1011D51BC280040EEEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B632F1031D51BC280040EEEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B632F1041D51BC280040EEEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B632F1061D51BC280040EEEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B632F1071D51BC280040EEEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B632F10A1D51BC280040EEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B632F10C1D51BC280040EEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B632F10F1D51BC280040EEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B632F1111D51BC280040EEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B632F1171D51BC630040EEEB /* NSObject+KVOExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOExtension.h"; sourceTree = "<group>"; };
+		B632F1181D51BC630040EEEB /* NSObject+KVOExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOExtension.m"; sourceTree = "<group>"; };
+		B632F11A1D51BFF30040EEEB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B632F11B1D51BFF30040EEEB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B632F0FA1D51BC280040EEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B632F0F41D51BC280040EEEB = {
+			isa = PBXGroup;
+			children = (
+				B632F0FF1D51BC280040EEEB /* 自定义KVO */,
+				B632F0FE1D51BC280040EEEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B632F0FE1D51BC280040EEEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B632F0FD1D51BC280040EEEB /* 自定义KVO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B632F0FF1D51BC280040EEEB /* 自定义KVO */ = {
+			isa = PBXGroup;
+			children = (
+				B632F1031D51BC280040EEEB /* AppDelegate.h */,
+				B632F1041D51BC280040EEEB /* AppDelegate.m */,
+				B632F1061D51BC280040EEEB /* ViewController.h */,
+				B632F1071D51BC280040EEEB /* ViewController.m */,
+				B632F11A1D51BFF30040EEEB /* Person.h */,
+				B632F11B1D51BFF30040EEEB /* Person.m */,
+				B632F1171D51BC630040EEEB /* NSObject+KVOExtension.h */,
+				B632F1181D51BC630040EEEB /* NSObject+KVOExtension.m */,
+				B632F1091D51BC280040EEEB /* Main.storyboard */,
+				B632F10C1D51BC280040EEEB /* Assets.xcassets */,
+				B632F10E1D51BC280040EEEB /* LaunchScreen.storyboard */,
+				B632F1111D51BC280040EEEB /* Info.plist */,
+				B632F1001D51BC280040EEEB /* Supporting Files */,
+			);
+			path = "自定义KVO";
+			sourceTree = "<group>";
+		};
+		B632F1001D51BC280040EEEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B632F1011D51BC280040EEEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B632F0FC1D51BC280040EEEB /* 自定义KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B632F1141D51BC280040EEEB /* Build configuration list for PBXNativeTarget "自定义KVO" */;
+			buildPhases = (
+				B632F0F91D51BC280040EEEB /* Sources */,
+				B632F0FA1D51BC280040EEEB /* Frameworks */,
+				B632F0FB1D51BC280040EEEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义KVO";
+			productName = "自定义KVO";
+			productReference = B632F0FD1D51BC280040EEEB /* 自定义KVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B632F0F51D51BC280040EEEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xuhongru;
+				TargetAttributes = {
+					B632F0FC1D51BC280040EEEB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 257QQ37JJL;
+					};
+				};
+			};
+			buildConfigurationList = B632F0F81D51BC280040EEEB /* Build configuration list for PBXProject "自定义KVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B632F0F41D51BC280040EEEB;
+			productRefGroup = B632F0FE1D51BC280040EEEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B632F0FC1D51BC280040EEEB /* 自定义KVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B632F0FB1D51BC280040EEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B632F1101D51BC280040EEEB /* LaunchScreen.storyboard in Resources */,
+				B632F10D1D51BC280040EEEB /* Assets.xcassets in Resources */,
+				B632F10B1D51BC280040EEEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B632F0F91D51BC280040EEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B632F1081D51BC280040EEEB /* ViewController.m in Sources */,
+				B632F1051D51BC280040EEEB /* AppDelegate.m in Sources */,
+				B632F11C1D51BFF30040EEEB /* Person.m in Sources */,
+				B632F1191D51BC630040EEEB /* NSObject+KVOExtension.m in Sources */,
+				B632F1021D51BC280040EEEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B632F1091D51BC280040EEEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B632F10A1D51BC280040EEEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B632F10E1D51BC280040EEEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B632F10F1D51BC280040EEEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B632F1121D51BC280040EEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B632F1131D51BC280040EEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B632F1151D51BC280040EEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义KVO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xuhongru.---KVO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B632F1161D51BC280040EEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义KVO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xuhongru.---KVO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B632F0F81D51BC280040EEEB /* Build configuration list for PBXProject "自定义KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B632F1121D51BC280040EEEB /* Debug */,
+				B632F1131D51BC280040EEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B632F1141D51BC280040EEEB /* Build configuration list for PBXNativeTarget "自定义KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B632F1151D51BC280040EEEB /* Debug */,
+				B632F1161D51BC280040EEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B632F0F51D51BC280040EEEB /* Project object */;
+}
