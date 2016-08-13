@@ -13,8 +13,8 @@
 		B632F10B1D51BC280040EEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632F1091D51BC280040EEEB /* Main.storyboard */; };
 		B632F10D1D51BC280040EEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B632F10C1D51BC280040EEEB /* Assets.xcassets */; };
 		B632F1101D51BC280040EEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632F10E1D51BC280040EEEB /* LaunchScreen.storyboard */; };
-		B632F1191D51BC630040EEEB /* NSObject+KVOExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B632F1181D51BC630040EEEB /* NSObject+KVOExtension.m */; };
 		B632F11C1D51BFF30040EEEB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B632F11B1D51BFF30040EEEB /* Person.m */; };
+		B6E423E51D5F0BD9002C239C /* NSObject+KVOExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E423E41D5F0BD9002C239C /* NSObject+KVOExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		B632F10C1D51BC280040EEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B632F10F1D51BC280040EEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B632F1111D51BC280040EEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B632F1171D51BC630040EEEB /* NSObject+KVOExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOExtension.h"; sourceTree = "<group>"; };
-		B632F1181D51BC630040EEEB /* NSObject+KVOExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOExtension.m"; sourceTree = "<group>"; };
 		B632F11A1D51BFF30040EEEB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		B632F11B1D51BFF30040EEEB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B6E423E31D5F0BD9002C239C /* NSObject+KVOExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOExtension.h"; sourceTree = "<group>"; };
+		B6E423E41D5F0BD9002C239C /* NSObject+KVOExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,7 @@
 		B632F0F41D51BC280040EEEB = {
 			isa = PBXGroup;
 			children = (
+				B6E423E21D5F0BD9002C239C /* XHRBlockKVO */,
 				B632F0FF1D51BC280040EEEB /* 自定义KVO */,
 				B632F0FE1D51BC280040EEEB /* Products */,
 			);
@@ -70,8 +71,6 @@
 				B632F1071D51BC280040EEEB /* ViewController.m */,
 				B632F11A1D51BFF30040EEEB /* Person.h */,
 				B632F11B1D51BFF30040EEEB /* Person.m */,
-				B632F1171D51BC630040EEEB /* NSObject+KVOExtension.h */,
-				B632F1181D51BC630040EEEB /* NSObject+KVOExtension.m */,
 				B632F1091D51BC280040EEEB /* Main.storyboard */,
 				B632F10C1D51BC280040EEEB /* Assets.xcassets */,
 				B632F10E1D51BC280040EEEB /* LaunchScreen.storyboard */,
@@ -87,6 +86,16 @@
 				B632F1011D51BC280040EEEB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6E423E21D5F0BD9002C239C /* XHRBlockKVO */ = {
+			isa = PBXGroup;
+			children = (
+				B6E423E31D5F0BD9002C239C /* NSObject+KVOExtension.h */,
+				B6E423E41D5F0BD9002C239C /* NSObject+KVOExtension.m */,
+			);
+			name = XHRBlockKVO;
+			path = "自定义KVO/XHRBlockKVO";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E423E51D5F0BD9002C239C /* NSObject+KVOExtension.m in Sources */,
 				B632F1081D51BC280040EEEB /* ViewController.m in Sources */,
 				B632F1051D51BC280040EEEB /* AppDelegate.m in Sources */,
 				B632F11C1D51BFF30040EEEB /* Person.m in Sources */,
-				B632F1191D51BC630040EEEB /* NSObject+KVOExtension.m in Sources */,
 				B632F1021D51BC280040EEEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
